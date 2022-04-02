@@ -1,0 +1,49 @@
+.main_container {
+	font-weight: bold;
+}
+.toggle {
+	padding: 0 0.3em;
+}
+.main_container#theme1 .toggle {
+	background-color: hsl(223, 31%, 20%);
+	i {
+		color: hsl(25, 98%, 40%);
+	}
+}
+
+i#theme2 {
+	transform: translateX(40%);
+	-webkit-transform: translateX(40%);
+	-moz-transform: translateX(40%);
+	-ms-transform: translateX(40%);
+	-o-transform: translateX(40%);
+}
+
+i#theme3 {
+	transform: translateX(80%);
+	-webkit-transform: translateX(80%);
+	-moz-transform: translateX(80%);
+	-ms-transform: translateX(80%);
+	-o-transform: translateX(80%);
+}
+
+.main_container#theme2 div {
+	color: hsl(60, 10%, 19%);
+}
+.main_container#theme2 .toggle {
+	background-color: hsl(0, 5%, 81%);
+	i {
+		color: hsl(25, 98%, 40%);
+	}
+}
+
+.main_container#theme3 div {
+	color: hsl(52, 100%, 62%);
+}
+
+.main_container#theme3 .toggle {
+	background-color: hsl(268, 71%, 12%);
+	i {
+		color: hsl(176, 100%, 44%);
+	}
+}

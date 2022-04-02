@@ -1,0 +1,6 @@
+export enum ETYPES {
+	PLUS = "PLUS",
+	MINUS = "MINUS",
+	MULTIPLE = "MULTIPLE",
+	DIVISION = "DIVISION",
+}

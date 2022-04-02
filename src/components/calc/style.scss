@@ -1,0 +1,118 @@
+.calc_container#theme2 {
+	background-color: hsl(0, 5%, 81%);
+	.row_1,
+	.row_2,
+	.row_3,
+	.row_4,
+	.row_5 {
+		.number {
+			background-color: hsl(45, 7%, 89%);
+			color: hsl(60, 10%, 19%);
+		}
+		.del,
+		button[type="reset"] {
+			background-color: hsl(185, 42%, 37%);
+			box-shadow: 0 3px 1px hsl(185, 58%, 25%);
+		}
+	}
+}
+.calc_container#theme3 {
+	background-color: hsl(268, 71%, 12%);
+	.row_1,
+	.row_2,
+	.row_3,
+	.row_4,
+	.row_5 {
+		.del,
+		button[type="reset"] {
+			color: white;
+			background-color: hsl(281, 89%, 26%);
+			box-shadow: 0 3px 1px hsl(285, 91%, 52%);
+		}
+		button[type="submit"] {
+			background-color: hsl(176, 100%, 44%);
+			box-shadow: 0 3px 1px hsl(177, 92%, 70%);
+			color: black;
+		}
+		.number {
+			background-color: hsl(268, 47%, 21%);
+			box-shadow: 0 3px 1px hsl(290, 70%, 36%);
+			color: hsl(52, 100%, 62%);
+		}
+	}
+}
+
+.calc_container {
+	background-color: hsl(223, 31%, 20%);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	padding: 0.5em;
+	.row_1,
+	.row_2,
+	.row_3,
+	.row_4,
+	.row_5 {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+		.number {
+			background-color: hsl(30, 25%, 89%);
+			box-shadow: 0 3px 1px hsl(28, 16%, 65%);
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			height: 40px;
+			width: 70px;
+			font-size: 20px;
+			font-weight: bold;
+			color: hsl(221, 14%, 31%);
+		}
+		.del {
+			height: 40px;
+			width: 70px;
+			background-color: hsl(225, 21%, 49%);
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			box-shadow: 0 3px 1px hsl(224, 28%, 35%);
+			font-size: 16px;
+			font-weight: bold;
+			color: white;
+		}
+		button[type="reset"] {
+			background-color: hsl(225, 21%, 49%);
+			box-shadow: 0 3px 1px hsl(224, 28%, 35%);
+			width: 45%;
+			height: 40px;
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			font-size: 16px;
+			font-weight: bold;
+			color: white;
+		}
+		button[type="submit"] {
+			width: 45%;
+			height: 40px;
+			background-color: hsl(6, 63%, 50%);
+			box-shadow: 0 3px 1px hsl(6, 70%, 34%);
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			color: white;
+		}
+	}
+}
