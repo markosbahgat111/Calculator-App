@@ -94,7 +94,7 @@ const Container: React.FC<Props> = ({ theme, setTheme }) => {
 	};
 	return (
 		<div
-			className="main_container w-[400px] min-h-[80vh] flex flex-col justify-around items-center"
+			className="main_container w-11/12 md:w-[400px] min-h-[90vh] md:min-h-[80vh] flex flex-col justify-around items-center"
 			id={"theme" + theme}>
 			<div className="w-full flex flex-row justify-between px-1 items-center text-white text-sm">
 				<h1 className="text-2xl">Calc</h1>
